@@ -1427,7 +1427,8 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    max-width: 100%;
 }
 
 .carousel-inner>.item>a>img,
@@ -1436,7 +1437,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 
