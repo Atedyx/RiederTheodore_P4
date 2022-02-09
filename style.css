@@ -777,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -854,11 +854,19 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .social
+    {
+        display: block;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .social
+    {
+        display: block;
     }
 }
 
@@ -889,6 +897,7 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+
 }
 
 @media (max-width: 767px) {
@@ -1028,6 +1037,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
@@ -1040,5 +1050,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (min-width: 767px) {
+    .social {
+        display: block;
     }
 }
